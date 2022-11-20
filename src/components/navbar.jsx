@@ -14,19 +14,12 @@ const Navbar = memo(({ handleScroll }) => {
     <>
       <header>
         <nav className="navbar">
-          <div className="navbar__logo">MMFIN.</div>
-
           <ul className="navbar__menu">
             <li>
-              <button onClick={() => handleScroll("about")}>About me</button>
+              <button className="section-text" onClick={() => handleScroll("about")}>About me</button>
             </li>
             <li>
-              <button onClick={() => handleScroll("skills")}>Skills</button>
-            </li>
-            <li>
-              <button onClick={() => handleScroll("portfolio")}>
-                Portfolio
-              </button>
+              <button className="section-text" onClick={() => handleScroll("skills")}>Skills</button>
             </li>
           </ul>
 
@@ -56,16 +49,6 @@ const Navbar = memo(({ handleScroll }) => {
                 }}
               >
                 Skills
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() => {
-                  handleScroll("portfolio");
-                  click();
-                }}
-              >
-                Portfolio
               </button>
             </li>
           </ul>

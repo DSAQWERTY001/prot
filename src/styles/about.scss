@@ -20,6 +20,7 @@
       max-width: 600px;
       min-width: 300px;
       box-sizing: border-box;
+      
       .info-title {
         font-size: 30px;
         margin: 0 auto;
@@ -36,17 +37,17 @@
       }
 
       ul {
-        padding: 20px 0;
+        padding: 30px 0;
 
         li {
           height: 40px;
 
           .info-li {
             .icon {
-              font-size: 20px;
+              font-size: 14px;
               color: rgb(85, 85, 85);
             }
-            text-shadow: none;
+            font-size: 18px;
             color: rgb(104, 104, 104);
           }
         }

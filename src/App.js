@@ -4,7 +4,6 @@ import Navbar from './components/navbar';
 import About from './components/about';
 import Title from './components/title';
 import Skills from './components/skills';
-import Portfolio from './components/portfolio';
 import Footer from './components/footer';
 
 
@@ -33,10 +32,7 @@ function App() {
       Top = aboutRef.current.offsetTop - 60;
     } else if(myTop === 'skills'){
       Top = skillsRef.current.offsetTop - 60;
-    } else if (myTop === 'portfolio') {
-      Top = portfolioRef.current.offsetTop -60;
-    } 
-    window.scrollTo({
+    } window.scrollTo({
       top: Top,
       behavior: "smooth"
     });
@@ -50,7 +46,6 @@ function App() {
       <div className="container">
         <About refs={ aboutRef}/>
         <Skills refs={ skillsRef}/>
-        <Portfolio refs={ portfolioRef}/>
       </div>
       <Footer handleScroll={handleScroll}/>
     </>

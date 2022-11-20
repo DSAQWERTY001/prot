@@ -4,17 +4,16 @@ import "../styles/skills.scss";
 
 import {
   ReactJs,
-  Redux,
-  Reduxsaga,
-  Sass,
   Javascript,
   Html5,
   CssThree,
   Nodedotjs,
-  Express,
   Mysql,
-  R,
-  Mongodb,
+  Flutter,
+  Java,
+  Dart,
+  C,
+  Firebase,
 } from "@icons-pack/react-simple-icons";
 
 const Skills = memo(({ refs }) => {
@@ -50,21 +49,9 @@ const Skills = memo(({ refs }) => {
           </div>
           <div className="skill-group">
             <div className="skill">
-              <Redux color="#764ABC" size={50} />
+              <Flutter color="#61DAFB" size={50} />
             </div>
-            <p className="skill-info">Redux</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Reduxsaga color="#999999" size={50} />
-            </div>
-            <p className="skill-info">Redux-Saga</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Sass color="#CC6699" size={50} />
-            </div>
-            <p className="skill-info">SASS</p>
+            <p className="skill-info">Flutter</p>
           </div>
         </div>
         <h3 className="skill-title">backend</h3>
@@ -77,30 +64,36 @@ const Skills = memo(({ refs }) => {
           </div>
           <div className="skill-group">
             <div className="skill">
-              <Express color="#000000" size={50} />
+              <C color="#1572B6" size={50} />
             </div>
-            <p className="skill-info">Express</p>
+            <p className="skill-info">C</p>
+          </div>
+          <div className="skill-group">
+            <div className="skill">
+              <Java color="#E34F26" size={50} />
+            </div>
+            <p className="skill-info">Java</p>
+          </div>
+          <div className="skill-group">
+            <div className="skill">
+              <Dart color="#1572B6" size={50} />
+            </div>
+            <p className="skill-info">Dart</p>
           </div>
         </div>
         <h3 className="skill-title">data</h3>
         <div className="skills-infos">
           <div className="skill-group">
             <div className="skill">
-              <R color="#276DC3" size={50} />
+              <Firebase color="#E34F26" size={50} />
             </div>
-            <p className="skill-info">R</p>
+            <p className="skill-info">Firebase</p>
           </div>
           <div className="skill-group">
             <div className="skill">
               <Mysql color="#4479A1" size={50} />
             </div>
             <p className="skill-info">My-SQL</p>
-          </div>
-          <div className="skill-group">
-            <div className="skill">
-              <Mongodb color="#47A248" size={50} />
-            </div>
-            <p className="skill-info">MongoDB</p>
           </div>
         </div>
       </div>
